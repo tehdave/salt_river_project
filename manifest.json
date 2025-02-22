@@ -1,0 +1,20 @@
+{
+  "domain": "salt_river_project",
+  "name": "Salt River Project",
+  "version": "0.1.0",
+  "codeowners": [
+    "@tehdave"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "sensor"
+  ],
+  "documentation": "https://www.home-assistant.io/integrations/salt_river_project",
+  "homekit": {},
+  "iot_class": "cloud_polling",
+  "requirements": [
+    "saltriverprojectenergyapi==1.0.5"
+  ],
+  "ssdp": [],
+  "zeroconf": []
+}
